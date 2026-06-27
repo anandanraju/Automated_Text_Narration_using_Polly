@@ -1,0 +1,3 @@
+Automated Text Narration Platform using AWS
+
+Developed a serverless text-to-speech application using AWS Polly to convert text into natural-sounding audio. Integrated AWS services to process user input, generate downloadable speech files, and automate voice synthesis. Designed a scalable cloud-based solution with support for multiple languages and neural voices, demonstrating hands-on experience with AWS serverless architecture.
