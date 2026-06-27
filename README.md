@@ -1,58 +1,26 @@
-# 🎙️ Automated Text Narration Platform using AWS
+## 🎙️ Automated Text Narration Platform using AWS
 
 A serverless cloud application that converts text into natural-sounding speech using **Amazon Polly**. The platform enables users to upload or enter text, generate high-quality audio, and download the synthesized speech in MP3 format. This project demonstrates the practical implementation of AWS serverless services and text-to-speech technology.
 
-## 📌 Project Overview
+### Project Overview
 
 The **Automated Text Narration Platform** leverages **Amazon Polly's neural text-to-speech** capabilities to transform written content into realistic audio. Built on a serverless AWS architecture, the application provides a scalable, cost-effective, and efficient solution for generating voice content from text files.
 
-## 🚀 Features
+### Features
 
-* ✅ Convert text into natural-sounding speech
-* 🌍 Support for multiple languages and voices
-* 🎤 Neural and standard voice options
-* 🎵 Generate downloadable MP3 audio files
-* ☁️ Fully serverless AWS architecture
-* ⚡ Fast and scalable processing
-* 💻 Simple and user-friendly interface
+* Convert text into natural-sounding speech
+* Support for multiple languages and voices
+* Neural and standard voice options
+* Generate downloadable MP3 audio files
+* Fully serverless AWS architecture
+* Fast and scalable processing
+* Simple and user-friendly interface
 
-## 🏗️ Architecture
+### Architecture
 
-                +----------------+
-                |     User       |
-                +----------------+
-                        |
-                        ▼
-               +-------------------+
-               |  Upload Text File |
-               +-------------------+
-                        |
-                        ▼
-               +------------------+
-               |   AWS Lambda     |
-               +------------------+
-                        |
-                        ▼
-               +------------------+
-               |  Amazon Polly    |
-               +------------------+
-                        |
-                        ▼
-               +-------------------+
-               | Generate MP3 File |
-               +-------------------+
-                        |
-                        ▼
-               +------------------+
-               |    Amazon S3     |
-               +------------------+
-                        |
-                        ▼
-               +------------------+
-               | Download Audio   |
-               +------------------+
+<img width="980" height="390" alt="AWS_Text2Audio" src="https://github.com/user-attachments/assets/31da5ff9-ec41-4acc-9fef-33ddafe195bb" />
 
-## 🛠️ AWS Services Used
+### 🛠️ AWS Services Used
 
 | AWS Service       | Purpose                                         |
 | ----------------- | ----------------------------------------------- |
@@ -63,7 +31,7 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 | Amazon CloudWatch | Logs and monitors Lambda execution              |
 
 
-## 💻 Tech Stack
+### Tech Stack
 
 * Python
 * Boto3
@@ -71,7 +39,7 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 * Amazon Polly
 * Amazon S3
 
-## ⚙️ How It Works
+### How It Works
 
 1. User uploads a text file or enters text through the application.
 2. The request is sent to **AWS Lambda**.
@@ -81,7 +49,7 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 6. Lambda stores the generated MP3 file in **Amazon S3**.
 7. The user downloads the generated audio file.
 
-## 🎯 Learning Outcomes
+### Learning Outcomes
 
 * Built a complete serverless application using AWS.
 * Integrated Amazon Polly with Python using the Boto3 SDK.
@@ -91,7 +59,7 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 * Monitored serverless workloads using CloudWatch.
 * Gained practical experience with AWS event-driven architecture.
 
-## Deploy the Lambda function and configure:
+### Deploy the Lambda function and configure:
 
 * Amazon Polly
 * Amazon S3 Buckets
@@ -99,11 +67,11 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 * S3 Event Trigger
 * API Gateway (Optional)
 
-## 📄 License
+### License
 
 This project is licensed under the **MIT License**.
 
-## 👨‍💻 Author
+### Author
 
 **Anandan Raju**
 
