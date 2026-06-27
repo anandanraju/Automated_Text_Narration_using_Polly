@@ -18,7 +18,6 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 
 ## 🏗️ Architecture
 
-```text
                 +----------------+
                 |     User       |
                 +----------------+
