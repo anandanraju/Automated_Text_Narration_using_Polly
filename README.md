@@ -18,9 +18,9 @@ The **Automated Text Narration Platform** leverages **Amazon Polly's neural text
 
 ### Architecture
 
-<img width="980" height="390" alt="AWS_Text2Audio" src="https://github.com/user-attachments/assets/31da5ff9-ec41-4acc-9fef-33ddafe195bb" />
+<img width="980" height="390" alt="Architecture_Diagram" src="https://github.com/user-attachments/assets/f4fa1995-ca7d-4149-8834-7fcacd54e522" />
 
-### 🛠️ AWS Services Used
+### AWS Services Used
 
 | AWS Service       | Purpose                                         |
 | ----------------- | ----------------------------------------------- |
